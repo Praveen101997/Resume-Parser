@@ -28,39 +28,39 @@ docker build -t <image-name>
 
 <img src="assets/Screenshot_3.jpg" width="600" >
 
-## Now after we have build our image we tag it with our ecr repository we just created 
+## 7. Now after we have build our image we tag it with our ecr repository we just created 
 ```
 docker tag <image-name>   <repository-name>:<image>
 ``` 
 
-## After tagging our image we push it to the ecr repository . 
+## 8. After tagging our image we push it to the ecr repository . 
 ```
 docker push  repository-name:<image>
 ```
 
 <img src="assets/Screenshot_4.jpg" width="600" >
 
-## Now that we can see the image is pushed to check you can go to your ecr repository and in the repository you should see your image
+## 9. Now that we can see the image is pushed to check you can go to your ecr repository and in the repository you should see your image
 
 <img src="assets/Screenshot_5.jpg" width="600" >
 
-## Copy this uri because we will use it when creating model. 
+## 10. Copy this uri because we will use it when creating model. 
 
-## Go to Aws sage  under real time infernece ->  go to model  -> and create a new model  
+## 11. Go to Aws sage  under real time infernece ->  go to model  -> and create a new model  
 
 <img src="assets/Screenshot_7.jpg" width="600" >
 
 <img src="assets/Screenshot_8.jpg" width="600" >
 
-## Now that we have model create a endpoint configuration 
+## 12. Now that we have model create a endpoint configuration 
 
 <img src="assets/Screenshot_9.jpg" width="600" >
 
-## Now create a endpoint and use the endpoint config we just created .  
+## 13. Now create a endpoint and use the endpoint config we just created .  
 
 <img src="assets/Screenshot_10.jpg" width="600" >
 
-## Now we can just a simple python script to invoke this endpoint and see if our prediction function works .
+## 14. Now we can just a simple python script to invoke this endpoint and see if our prediction function works .
 
 ```
 import json 

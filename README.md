@@ -3,6 +3,12 @@
 
 ## 1. Create NER Model using scapy
 
+```
+using NER Model.ipynb
+```
+
+<img src="assets/Screenshot_0.jpg" width="900" >
+
 ## 2. Download and compress this model in tar.gz file
 
 ## 3. Now upload this model in S3 bucket on AWS
